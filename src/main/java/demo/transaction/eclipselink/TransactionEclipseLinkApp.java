@@ -72,12 +72,7 @@ public class TransactionEclipseLinkApp {
 
     @OnAppStart
     public void ensureTestingData() {
-        JPAContext.init();
-        try {
-            loadTestingData();
-        } finally {
-            JPAContext.close();
-        }
+        loadTestingData();
     }
 
     @Transactional
