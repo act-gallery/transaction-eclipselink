@@ -21,7 +21,7 @@
 
   <groupId>org.actframework.demo</groupId>
   <artifactId>transaction-eclipselink</artifactId>
-  <version>1.8.29</version>
+  <version>1.9.0</version>
 
   <name>actframework app demo - Transaction (JPA/EclipseLink)</name>
   <description>demonstrates a simple transaction app with JPA/EclipseLink</description>
@@ -35,7 +35,7 @@
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>act-starter-parent</artifactId>
-    <version>1.8.29.0</version>
+    <version>1.9.0.1</version>
   </parent>
 
   <dependencies>
